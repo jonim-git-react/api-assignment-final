@@ -5,6 +5,11 @@ export default function NavBar() {
     return (
         <nav className="navbar navbar-expand-md navbar-dark bg-dark mb-4">
   <div className="container-fluid">
+
+    {/* tästä herjaa että tarvis href dev toolsin puolella
+    , mutta jätin tyylin vuoksi sen a elementiksi, 
+    kun en heti keksinyt, miten tuon otsikon sais nätisti navin sisään. */}
+
     <a className="navbar-brand">Best site ever</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>

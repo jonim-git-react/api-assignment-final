@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 
 const API_URL = 'https://www.theaudiodb.com/api/v1/json/'
-const API_KEY = '1'
+const API_KEY = 'insert-api-key'
 const SEARCH = '/search.php?s='
 
 export default function BandInfo() {
@@ -67,15 +67,15 @@ export default function BandInfo() {
 
                     {/* Käytin objectia tässä, että saan broken image kuvat pois näkyvistä oletuksena, kun sivun avaa */}
 
-                    <object data={logo} type="image/jpg">
+                    <object data={logo} className="logo" type="image/jpg">
 
                         {/* <img className="logo" src={logo} alt="Band logo" /> */}
                     </object>
 
-                    <object data={picture} type="image/jpg">
+                    <object data={picture} className="pic" type="image/jpg">
 
                     </object>
-                    {/* <img className="pic" src={picture} alt="Band" /> */}
+                        {/* <img className="pic" src={picture} alt="Band" /> */}
 
                 </div>
             </form>
