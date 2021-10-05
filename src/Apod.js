@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 
 const API_URL = 'https://api.nasa.gov/planetary/apod?api_key='
-const API_KEY = '6BNcGajGGgPpMqjLRUMZGfQ2oOhVBLxnnme9Wkzu'
+const API_KEY = 'insert-api-key-here'
 
 export default function Apod() {
 
