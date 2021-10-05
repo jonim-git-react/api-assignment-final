@@ -42,7 +42,7 @@ export default function Apod() {
                 setExplanation(json.explanation)
                 console.log(json)
             } else {
-                alert('Error retrieving band info.')
+                alert('Error retrieving picture.')
                 console.log(response)
             }
         } catch (err) {

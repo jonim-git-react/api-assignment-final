@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 
 const API_URL = 'https://www.theaudiodb.com/api/v1/json/'
-const API_KEY = 'insert-api-key'
+const API_KEY = 'insert-api-key-here'
 const SEARCH = '/search.php?s='
 
 export default function BandInfo() {
